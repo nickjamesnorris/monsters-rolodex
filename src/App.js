@@ -35,6 +35,7 @@ class App extends Component {
           handleChange={this.handleChange}
         />
         <CardList monsters={filtertedMonsters} />
+        <h1>HI!</h1>
       </div>
     );
   }
